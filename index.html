@@ -1,4 +1,122 @@
-<!DOCTYPE HTML>
-<script>
-  window.open("https://eduro.pen.go.kr/stv_cvd_co00_010.do", "_self");
-</script>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+  <title>FUNGI</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <div class="menu">
+   <input type="button" name="" value="게임" class="Game">
+   <input type="button" name="" value="어플리케이션" class="Appl">
+   <input type="button" name="" value="마일리지" class="DE">
+   <input type="text" placeholder="검색어 입력" name="" class="sch">
+   <input type="button" name="" value="X" class="Close" onclick="$('.sch').val('')">
+  </div>
+ </head>
+ <body>
+  <div style="margin-top: 50pt;">
+   <div class="Feed">
+    <h1 style="color: white;">소식</h1>
+   </div>
+  </div>
+ </body>
+ <style media="screen">
+  body{
+   background: rgb(23,23,23);
+  }
+  .menu{
+   background: white;
+   padding: 10pt;
+   box-shadow: 0px 0px 30px;
+  }
+  .sch{
+   border-style: none;
+   border-radius: 2px;
+   background-color: rgb(245,245,245);
+   margin-left: 2%;
+   width: 30%;
+   height: 3em;
+   outline: 0;
+   padding-left: 14pt;
+  }
+  .sch:hover{
+   background-color: rgb(235,235,235);
+  }
+  .sch:focus{
+   background-color: rgb(235,235,235);
+  }
+  .Game{
+   border-style: solid;
+   border-width: 2.5px;
+   border-radius: 0px;
+   outline: 0;
+   border-color: rgb(0,0,0,0);
+   width: 6em;
+   height: 4em;
+   font-weight: bold;
+   transition: .1s;
+   background-color: rgb(235,235,235);
+  }
+  .Game:hover{
+   cursor: pointer;
+   background-color: rgb(240,240,240);
+   border-bottom-color: rgb(255, 0, 0);
+   transition: .1s;
+  }
+  .Appl{
+   border-style: solid;
+   border-width: 2.5px;
+   border-radius: 0px;
+   outline: 0;
+   border-color: rgb(0,0,0,0);
+   width: 9em;
+   height: 4em;
+   font-weight: bold;
+   transition: .1s;
+   background-color: rgb(235,235,235);
+  }
+  .Appl:hover{
+   cursor: pointer;
+   background-color: rgb(240,240,240);
+   border-bottom-color: rgb(51, 153, 255);
+   transition: .1s;
+  }
+  .DE{
+   border-style: solid;
+   border-width: 2.5px;
+   border-radius: 0px;
+   outline: 0;
+   border-color: rgb(0,0,0,0);
+   width: 8em;
+   height: 4em;
+   font-weight: bold;
+   transition: .1s;
+   background-color: rgb(235,235,235);
+  }
+  .DE:hover{
+   cursor: pointer;
+   background-color: rgb(240,240,240);
+   border-bottom-color: rgb(15, 15, 15);
+   transition: .1s;
+  }
+  .Close{
+   border-style: solid;
+   border-width: 2.5px;
+   border-radius: 0px;
+   outline: 0;
+   border-color: rgb(0,0,0,0);
+   width: 4em;
+   height: 3.1em;
+   font-weight: bold;
+   transition: .1s;
+   background-color: rgba(0,0,0,0);
+   margin-left: -5%;
+  }
+  .Close:hover{
+   cursor: pointer;
+   transition: .1s;
+  }
+  .Feed{
+   padding-left: 40px;
+  }
+ </style>
+</html>
